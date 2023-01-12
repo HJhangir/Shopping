@@ -25,7 +25,27 @@
 
 
 
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price i{
+    background-color: #ff523b;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center
+    ;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
 
+.price i:hover{
+    background-color: orange;
+    transition: .5s ease;
+}
 .new_style h1{
     width: 45%;
     font-size: 45px;
